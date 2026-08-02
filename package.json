@@ -4,7 +4,7 @@
   "description": "A JavaScript package that converts Unix timestamps into human-readable time differences.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/artisticLogicMK/timelydiff/issues"
   },
-  "homepage": "https://github.com/artisticLogicMK/timelydiff#readme"
+  "homepage": "https://github.com/artisticLogicMK/timelydiff#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
 }
